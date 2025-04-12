@@ -1,0 +1,115 @@
+.heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(52, 44, 35);
+}
+main{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.searchSort{
+    background-color: rgb(209, 209, 169);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.search{
+    width: 54%;
+    padding: 7px 20px;
+    border: 2px solid rgb(209, 209, 169);
+    border-radius: 3px;
+    outline-width: 2px;
+    outline-color: rgb(104, 104, 83);
+    background-color: white;
+}
+.sort{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.sortByDate{
+    width: 49%;
+    border-radius: 3px;
+    outline-width: 2px;
+    outline-color: rgb(183, 183, 147);
+    padding: 0 7px;
+    border: 2px solid rgb(209, 209, 169);
+    background-color: white;
+}
+.sortByCompleted{
+    width: 49%;
+    outline-width: 2px;
+    border-radius: 3px;
+    outline-color: rgb(183, 183, 147);
+    padding: 0 7px;
+    border: 2px solid rgb(209, 209, 169);
+    background-color: white;
+}
+.searchSort{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todoLists{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.todoList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 3px solid rgb(209, 209, 169);
+    background-color: rgb(255, 252, 249);
+}
+.listTitle{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(52, 44, 35);
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.completedBtn{
+    background-color: rgb(81, 102, 195);
+    color: white;
+    padding: 5px 13px;
+    border-radius: 4px;
+}
+.completeBtn{
+    cursor: pointer;
+    background-color: rgb(81, 102, 195);
+    color: white;
+    padding: 5px 13px;
+    border-radius: 4px;
+    transition: .2s;
+}
+.completeBtn:hover{
+    background-color: rgb(61, 77, 150);
+}
+.editBtn{
+    cursor: pointer;
+    padding: 9px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(91, 121, 91);
+    transition: .2s;
+}
+.editBtn:hover{
+    background-color: rgb(64, 96, 64);
+}
+.deleteBtn{
+    cursor: pointer;
+    background-color: rgb(197, 3, 3);
+    color: white;
+    padding: 9px;
+    border-radius: 3px;
+    transition: .2s;
+}
+.deleteBtn:hover{
+    background-color: rgb(160, 2, 2);
+}
